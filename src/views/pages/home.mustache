@@ -1,0 +1,55 @@
+{{>partials/header}}
+<!-- 
+<div class="container">
+<form action="/" method="GET">
+    <div class="form-group">
+        <label>De:</label> <br>
+        <input type="number" name="de" placeholder="Primeiro intervalo" class="form-control"> <br>
+    </div>
+    <div class="form-group">
+        <label>Até</label> <br>
+        <input type="number" name="ate" placeholder="Segundo intervalo" class="form-control"> <br>
+    </div>
+    <button type="submit" class="btn btn-primary">Verificar</button>
+</form>
+
+{{>partials/footer}}
+
+{{#show}}
+    <div>
+      <strong>Números Palíndromos:</strong> {{palindromos}}
+    </div>
+{{/show}} 
+
+</div>
+
+-->
+<!--Div for Background-->
+<div class="bg text-center">
+
+    <!--Div for Centered Text & Input--> 
+    <div class="centered">
+     
+       <p class="firstLine"> P &nbsp; A &nbsp; L &nbsp; Í &nbsp; N &nbsp; D &nbsp; R &nbsp; O &nbsp; M &nbsp; O &nbsp; S &nbsp; . &nbsp; A &nbsp; C &nbsp; H &nbsp; A &nbsp; R &nbsp; </p>
+     
+      <p class="secondLine">Preencha os intervalos e clique em encontrar</p>
+  
+      <form action="/" method="get">
+      <p> <input class="InputStyle" placeholder="Primeiro intervalo" style="font-family:Arial, FontAwesome" type="number" name="de"> </p>
+      <p> <input class="InputStyle" placeholder="Segundo intervalo" style="font-family:Arial, FontAwesome" type="number" name="ate"> </p>
+      <p> <input class="InputStyleSubmit" type="submit" value="Encontrar"> </p>
+    </form>
+
+    {{#show}}
+    <div>
+      <p class="secondLine"> Números Palíndromos: {{palindromos}} </p>  
+    </div>
+    {{/show}} 
+      </div>
+      
+    
+  
+     
+</div>
+  
+  
